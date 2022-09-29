@@ -79,7 +79,7 @@ class TestAllMethods(unittest.TestCase):
 		self.assertEqual(count_a("Apple"), 1)
 
 
-	## Check to see whether you can add an item to the warehouse
+	## Check to see whether you can add an item to the warehouse #DONE 
 	def test_add_item(self):
 		warehouse1 = Warehouse()
 		self.assertEqual(len(warehouse1.items), 0)
